@@ -1,0 +1,311 @@
+/* Reset and Basic Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Main Article Container */
+  article {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cart Box Styling */
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffa500;
+  }
+  
+  /* Cart Image and Details */
+  .cart_img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cart_img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Quantity Buttons */
+  .plus_minus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .plus_minus button {
+    width: 30px;
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+  }
+  
+  .plus_minus button:hover {
+    background: #0056b3;
+  }
+  
+  /* Price and Remove Button */
+  .cart_box div:last-child {
+    text-align: right;
+  }
+  
+  .cart_box span {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart_box button {
+    padding: 8px 12px;
+    background: #d9534f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .cart_box button:hover {
+    background: #c9302c;
+  }
+  
+  /* Total Section */
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ffa500;
+  }
+  
+  .total span:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffa500;
+  }
+  
+  .total span:last-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    article {
+      width: 90%;
+    }
+  
+    .cart_box {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .plus_minus {
+      margin-top: 10px;
+    }
+  
+    .total span:first-child,
+    .total span:last-child {
+      font-size: 1.2rem;
+    }
+  }
+/* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Main Article Container */
+  article {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cart Box Styling */
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffa500;
+  }
+  
+  /* Cart Image and Details */
+  .cart_img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cart_img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Quantity Buttons */
+  .plus_minus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .plus_minus button {
+    width: 30px;
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+  }
+  
+  .plus_minus button:hover {
+    background: #0056b3;
+  }
+  
+  /* Price and Remove Button */
+  .cart_box div:last-child {
+    text-align: right;
+  }
+  
+  .cart_box span {
+    display: block;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart_box button {
+    padding: 8px 12px;
+    background: #d9534f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .cart_box button:hover {
+    background: #c9302c;
+  }
+  
+  /* Total Section */
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ffa500;
+  }
+  
+  .total span:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffa500;
+  }
+  
+  .total span:last-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    article {
+      width: 90%;
+    }
+  
+    .cart_box {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .plus_minus {
+      margin-top: 10px;
+    }
+  
+    .total span:first-child,
+    .total span:last-child {
+      font-size: 1.2rem;
+    }
+  }
+    
